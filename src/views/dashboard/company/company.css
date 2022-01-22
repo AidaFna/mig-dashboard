@@ -1,0 +1,20 @@
+.company{
+  background-color: lightgrey;
+  width: 100vw;
+}
+
+/* Profile */
+.img-header{
+  height: 150px;
+}
+.img-logo{
+  width: 150px;
+  margin-top: -70px;
+  border-color: green;
+  border-width: 10px;
+}
+
+/* location */
+.location{
+  background-color: white;
+}
