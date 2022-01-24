@@ -1,4 +1,4 @@
-import { Card, Row, Col, Image } from "react-bootstrap";
+import { Card, Row, Col, Image, Button } from "react-bootstrap";
 import "./company.css";
 import header from "../../../assets/header-company.jpg";
 
@@ -7,9 +7,19 @@ const Bank = () => {
     <>
       <Card>
         <Card.Body>
-          <Card.Title>Akun Bank</Card.Title>
-          <Card.Subtitle className="mt-5 text-muted"></Card.Subtitle>
           <Row className="mt-3">
+            <Col md={6}>
+              <h5>
+                <b>Akun Bank</b>
+              </h5>
+            </Col>
+            <Col md={6} className="mb-5">
+              <h7>
+                <Button variant="success">
+                  <i class="bi bi-plus-lg"></i> Tambah Akun Bank
+                </Button>
+              </h7>
+            </Col>
             <Col md={4}>
               <Image src={header} className="rounded" height="100px"></Image>
             </Col>

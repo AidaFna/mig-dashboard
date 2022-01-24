@@ -1,6 +1,11 @@
 .company{
   background-color: lightgrey;
   width: 100vw;
+  margin-right: -40px;
+  
+}
+.content{
+  margin-left: -40px;
 }
 
 /* Profile */

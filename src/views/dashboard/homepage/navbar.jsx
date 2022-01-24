@@ -8,7 +8,7 @@ const Header = () => {
         <Container>
           <Nav className="me-auto">
             <Nav.Link>
-              Perusahaan {">"} <b>Mitramas Infosys Global</b>
+              Home {">"} <b>Customers</b>
             </Nav.Link>
           </Nav>
           <Navbar.Toggle />

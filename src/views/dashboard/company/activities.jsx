@@ -6,7 +6,9 @@ const Activities = () => {
     <>
       <Card>
         <Card.Body>
-          <Card.Title>Aktivitas</Card.Title>
+          <Card.Title>
+            <b>Aktivitas</b>
+          </Card.Title>
           <Card.Subtitle className="mt-5 text-muted">{""}</Card.Subtitle>
           <h6>
             Yusron baru saja menambahkan lokasi baru Kantor Cabang Jagakarsa

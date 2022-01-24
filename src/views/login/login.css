@@ -1,0 +1,24 @@
+/* Login */
+.landing{
+  height: 100vh;
+  background-color: lightseagreen;
+}
+.login-card{
+  border-radius: 5px;
+  margin-top: 30vh;
+  background-color: whitesmoke;
+}
+
+/* FormLogin */
+.login-form{
+  margin: 5px;
+  padding: 10px;
+  
+  justify-content: start;
+  align-content: flex-start;
+  align-items: flex-start;
+  
+}
+.btn-login{
+  width: 100%;
+}

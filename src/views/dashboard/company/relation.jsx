@@ -6,9 +6,17 @@ const Relation = () => {
     <>
       <Card className="mt-4">
         <Card.Body>
-          <Card.Title>Relasi</Card.Title>
-          <Card.Subtitle className="mt-5 text-muted"></Card.Subtitle>
           <Row>
+            <Col md={9}>
+              <h5>
+                <b>Relasi</b>
+              </h5>
+            </Col>
+            <Col md={3}>
+              <h7>
+                <a href="/company">Lihat semua</a>
+              </h7>
+            </Col>
             <Col md={2}>
               <h3 className="mt-3">
                 <i class="bi bi-share"></i>

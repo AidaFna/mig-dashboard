@@ -1,21 +1,25 @@
 import axios from "axios";
 
-export const fetchData = () => {
+export const fetchCustomers = () => {
+    const token = localStorage.getItem("token");
+  const config = {
+    headers: { Authorization: ` ${token}` },
+  };
     return (dispatch) => {
-        axios.get('https://mitramas-test.herokuapp.com/customers')
-        .then((data)=>{
+        axios.get('https://mitramas-test.herokuapp.com/customers', config)
+        .then(({data})=>{
             // console.log(data.data);
-            dispatch(setData(data.data.results))
+            dispatch(setCustomers(data.data))
         })
         .catch(err=>{
-            console.log(err.message);
+            console.log(err);
         
         })
     }
 }
 
-export const setData = (payload) => {
+export const setCustomers = (payload) => {
     return{
-        type: 'SET_POST', payload
+        type: 'SET_CUSTOMERS', payload
     }
 }

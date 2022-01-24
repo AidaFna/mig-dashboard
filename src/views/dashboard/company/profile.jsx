@@ -39,16 +39,22 @@ const Profile = () => {
             <h7>E-mail</h7>
             <h6>
               {" "}
-              <i class="bi bi-envelope"></i> mig@mitasolusi.group
+              <a href="/company">
+                <i class="bi bi-envelope"></i> mig@mitasolusi.group
+              </a>
             </h6>
             <h7>No. Telp</h7>
             <h6>
               {" "}
-              <i class="bi bi-telephone"></i> 021-5678-1234
+              <a href="/company">
+                <i class="bi bi-telephone"></i> 021-5678-1234
+              </a>
             </h6>
             <h7>Situs Web</h7>
             <h6>
-              <i class="bi bi-globe"></i> mitramas.com
+              <a href="/company">
+                <i class="bi bi-globe"></i> mitramas.com
+              </a>
             </h6>
           </div>
         </Card.Body>

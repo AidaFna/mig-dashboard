@@ -1,8 +1,8 @@
-import { fetchData, setData } from './fetchCustomers.js'
+import { fetchCustomers, setCustomers } from './fetchCustomers.js'
 
 const allStore = {
-    fetchData,
-    setData,
+    fetchCustomers,
+    setCustomers,
 }
 
 export default allStore
